@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Path - Поддержка Путь Энергии</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #3b82f6;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        h3 { color: var(--text-color); margin: 20px 0 10px; font-size: 1.1em; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(59, 130, 246, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid var(--accent-color);
+        }
+        .contact-box {
+            background: rgba(59, 130, 246, 0.05);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .contact-box p {
+            margin-bottom: 8px;
+        }
+        .contact-box strong {
+            color: var(--accent-color);
+        }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .faq-item {
+            margin-bottom: 25px;
+        }
+        .faq-question {
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 8px;
+        }
+        .faq-answer {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="support.html">English</option>
+                <option value="support-ar.html">العربية</option>
+                <option value="support-ms.html">Bahasa Melayu</option>
+                <option value="support-bg.html">Български</option>
+                <option value="support-bn.html">বাংলা</option>
+                <option value="support-bs.html">Bosanski</option>
+                <option value="support-ca.html">Catala</option>
+                <option value="support-cs.html">Cestina</option>
+                <option value="support-da.html">Dansk</option>
+                <option value="support-de.html">Deutsch</option>
+                <option value="support-el.html">Ellenika</option>
+                <option value="support-et.html">Eesti</option>
+                <option value="support-fi.html">Suomi</option>
+                <option value="support-fr.html">Francais</option>
+                <option value="support-hi.html">Hindi</option>
+                <option value="support-hr.html">Hrvatski</option>
+                <option value="support-hu.html">Magyar</option>
+                <option value="support-id.html">Bahasa Indonesia</option>
+                <option value="support-it.html">Italiano</option>
+                <option value="support-ja.html">Japanese</option>
+                <option value="support-kk.html">Kazaksha</option>
+                <option value="support-ko.html">Korean</option>
+                <option value="support-ka.html">Kartuli</option>
+                <option value="support-lv.html">Latviesu</option>
+                <option value="support-lt.html">Lietuviu</option>
+                <option value="support-nl.html">Nederlands</option>
+                <option value="support-fa.html">Farsi</option>
+                <option value="support-nb.html">Norsk</option>
+                <option value="support-pl.html">Polski</option>
+                <option value="support-pt-BR.html">Portugues (Brasil)</option>
+                <option value="support-pt.html">Portugues</option>
+                <option value="support-ro.html">Romana</option>
+                <option value="support-ru.html" selected>Русский</option>
+                <option value="support-sk.html">Slovencina</option>
+                <option value="support-sl.html">Slovenscina</option>
+                <option value="support-zh-Hans.html">简体中文</option>
+                <option value="support-zh-Hant.html">繁體中文</option>
+                            <option value="support-tr.html">Türkçe</option>
+                <option value="support-uk.html">Українська</option>
+                <option value="support-ur.html">اردو</option>
+                <option value="support-vi.html">Tiếng Việt</option>
+                <option value="support-th.html">ไทย</option>
+            </select>
+        </div>
+
+        <h1>Поддержка Путь Энергии</h1>
+        <p>Мы здесь, чтобы помочь вам наслаждаться Путь Энергии!</p>
+
+        <div class="highlight">
+            <strong>Нужна помощь?</strong> Ознакомьтесь с часто задаваемыми вопросами ниже или свяжитесь с нами напрямую.
+        </div>
+
+        <h2>Контактная информация</h2>
+        <div class="contact-box">
+            <p><strong>Электронная почта:</strong> <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+            <p><strong>Адрес:</strong> 254 Rue Vendome, 69003 Lyon, France</p>
+            <p><strong>Телефон:</strong> +33 6 98 49 49 28</p>
+        </div>
+
+        <h2>Часто задаваемые вопросы</h2>
+
+        <div class="faq-item">
+            <p class="faq-question">Как восстановить мои покупки?</p>
+            <p class="faq-answer">Чтобы восстановить предыдущие покупки, перейдите в меню «Настройки» в приложении и нажмите «Восстановить покупки». Это восстановит все разблокированные главы и другие нерасходуемые покупки, связанные с вашим Apple ID. Обратите внимание, что расходуемые покупки (например, кредиты подсказок) не могут быть восстановлены.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Как синхронизировать свой прогресс между устройствами?</p>
+            <p class="faq-answer">Путь Энергии автоматически синхронизирует ваш прогресс на всех ваших устройствах Apple с помощью iCloud. Убедитесь, что вы вошли в одну и ту же учетную запись iCloud на всех устройствах и что iCloud включен для Путь Энергии в настройках вашего устройства > [Ваше имя] > iCloud.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Как сбросить прогресс в игре?</p>
+            <p class="faq-answer">Вы можете сбросить прогресс в игре в меню «Настройки» в приложении. Нажмите «Сбросить прогресс» и подтвердите свой выбор. Обратите внимание, что это действие нельзя отменить, и оно сбросит все пройденные уровни, звезды и статистику.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Я застрял на одном из уровней. Как я могу получить помощь?</p>
+            <p class="faq-answer">Путь Энергии предлагает систему подсказок, которая поможет вам пройти сложные уровни. Вы можете использовать кредиты подсказок, чтобы пошагово раскрыть решение. Кредиты подсказок можно приобрести в приложении. Если вы все еще застряли, не стесняйтесь обращаться к нам!</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Как изменить язык приложения?</p>
+            <p class="faq-answer">Путь Энергии использует языковые настройки вашего устройства. Чтобы изменить язык, перейдите в «Настройки» > «Общие» > «Язык и регион» на вашем устройстве и выберите желаемый язык. Приложение поддерживает 45 языков.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Как сообщить об ошибке или предложить функцию?</p>
+            <p class="faq-answer">Мы всегда рады услышать отзывы наших игроков! Пожалуйста, напишите нам на <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> с подробностями о любых ошибках, которые вы обнаружили, или функциях, которые вы хотели бы видеть. При сообщении об ошибке укажите модель вашего устройства и версию iOS.</p>
+        </div>
+
+        <h2>Дополнительные ресурсы</h2>
+        <ul>
+            <li><a href="../Privacy policy/privacy-policy-ru.html">Политика конфиденциальности</a></li>
+        </ul>
+
+        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">Спасибо, что играете в Путь Энергии!</p>
+    </div>
+</body>
+</html>

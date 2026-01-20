@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مسار الطاقة  - الدعم</title>
+    <title>Energy Path - Assistenza Sentiero dell'Energia</title>
     <style>
         :root {
             --bg-color: #f5f5f7;
@@ -16,7 +16,7 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-color);
-            line-height: 1.8;
+            line-height: 1.6;
             padding: 20px;
         }
         .container {
@@ -30,15 +30,14 @@
         h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
         h3 { color: var(--text-color); margin: 20px 0 10px; font-size: 1.1em; }
         p, li { margin-bottom: 12px; }
-        ul { padding-right: 25px; padding-left: 0; }
+        ul { padding-left: 25px; }
         a { color: var(--accent-color); }
         .highlight {
             background: rgba(59, 130, 246, 0.1);
             padding: 15px;
             border-radius: 8px;
             margin: 20px 0;
-            border-right: 3px solid var(--accent-color);
-            border-left: none;
+            border-left: 3px solid var(--accent-color);
         }
         .contact-box {
             background: rgba(59, 130, 246, 0.05);
@@ -53,7 +52,7 @@
             color: var(--accent-color);
         }
         .lang-switcher {
-            text-align: left;
+            text-align: right;
             margin-bottom: 20px;
         }
         .lang-switcher select {
@@ -82,7 +81,8 @@
         <div class="lang-switcher">
             <select onchange="window.location.href=this.value">
                 <option value="support.html">English</option>
-                <option value="support-ar.html" selected>العربية</option>
+                <option value="support-ar.html">العربية</option>
+                <option value="support-ms.html">Bahasa Melayu</option>
                 <option value="support-bg.html">Български</option>
                 <option value="support-bn.html">বাংলা</option>
                 <option value="support-bs.html">Bosanski</option>
@@ -99,7 +99,7 @@
                 <option value="support-hr.html">Hrvatski</option>
                 <option value="support-hu.html">Magyar</option>
                 <option value="support-id.html">Bahasa Indonesia</option>
-                <option value="support-it.html">Italiano</option>
+                <option value="support-it.html" selected>Italiano</option>
                 <option value="support-ja.html">日本語</option>
                 <option value="support-kk.html">Қазақша</option>
                 <option value="support-ko.html">한국어</option>
@@ -128,58 +128,58 @@
             </select>
         </div>
 
-        <h1>دعم مسار الطاقة </h1>
-        <p>نحن هنا لمساعدتك على الاستمتاع بـ مسار الطاقة !</p>
+        <h1>Assistenza Sentiero dell'Energia</h1>
+        <p>Siamo qui per aiutarti a goderti Sentiero dell'Energia!</p>
 
         <div class="highlight">
-            <strong>تحتاج مساعدة؟</strong> تحقق من الأسئلة الشائعة أدناه أو تواصل معنا مباشرة.
+            <strong>Hai bisogno di aiuto?</strong> Consulta le domande frequenti riportate di seguito o contattaci direttamente.
         </div>
 
-        <h2>معلومات الاتصال</h2>
+        <h2>Informazioni di contatto</h2>
         <div class="contact-box">
-            <p><strong>البريد الإلكتروني:</strong> <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
-            <p><strong>العنوان:</strong> 254 Rue Vendôme, 69003 Lyon, France</p>
-            <p><strong>الهاتف:</strong> +٣٣ ٦ ٩٨ ٤٩ ٤٩ ٢٨ </p>
+            <p><strong>E-mail:</strong> <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+            <p><strong>Indirizzo:</strong> 254 Rue Vendôme, 69003 Lyon, France</p>
+            <p><strong>Telefono:</strong> +33 6 98 49 49 28</p>
         </div>
 
-        <h2>الأسئلة الشائعة</h2>
+        <h2>Domande frequenti</h2>
 
         <div class="faq-item">
-            <p class="faq-question">كيف أستعيد مشترياتي؟</p>
-            <p class="faq-answer">لاستعادة مشترياتك السابقة، انتقل إلى قائمة الإعدادات في التطبيق واضغط على "استعادة المشتريات". سيؤدي ذلك إلى استعادة أي فتح للفصول أو مشتريات أخرى غير قابلة للاستهلاك مرتبطة بحساب Apple ID الخاص بك. لاحظ أن المشتريات القابلة للاستهلاك (مثل رصيد التلميحات) لا يمكن استعادتها.</p>
-        </div>
-
-        <div class="faq-item">
-            <p class="faq-question">كيف أزامن تقدمي عبر الأجهزة؟</p>
-            <p class="faq-answer">يقوم مسار الطاقة  تلقائياً بمزامنة تقدمك عبر جميع أجهزة Apple الخاصة بك باستخدام iCloud. تأكد من تسجيل الدخول إلى نفس حساب iCloud على جميع الأجهزة ومن تمكين iCloud لـ مسار الطاقة  في إعدادات جهازك > [اسمك] > iCloud.</p>
+            <p class="faq-question">Come posso ripristinare i miei acquisti?</p>
+            <p class="faq-answer">Per ripristinare i tuoi acquisti precedenti, vai al menu Impostazioni nell'app e tocca "Ripristina acquisti". In questo modo verranno ripristinati tutti i capitoli sbloccati o altri acquisti non consumabili collegati al tuo ID Apple. Tieni presente che gli acquisti consumabili (come i crediti per i suggerimenti) non possono essere ripristinati.</p>
         </div>
 
         <div class="faq-item">
-            <p class="faq-question">كيف أعيد تعيين تقدمي في اللعبة؟</p>
-            <p class="faq-answer">يمكنك إعادة تعيين تقدمك في اللعبة من قائمة الإعدادات داخل التطبيق. اضغط على "إعادة تعيين التقدم" وأكد اختيارك. يرجى ملاحظة أن هذا الإجراء لا يمكن التراجع عنه وسيعيد تعيين جميع إكمالات المستويات والنجوم والإحصائيات.</p>
+            <p class="faq-question">Come posso sincronizzare i miei progressi su piu dispositivi?</p>
+            <p class="faq-answer">Sentiero dell'Energia sincronizza automaticamente i tuoi progressi su tutti i tuoi dispositivi Apple utilizzando iCloud. Assicurati di aver effettuato l'accesso allo stesso account iCloud su tutti i dispositivi e che iCloud sia abilitato per Sentiero dell'Energia nelle Impostazioni del tuo dispositivo > [Il tuo nome] > iCloud.</p>
         </div>
 
         <div class="faq-item">
-            <p class="faq-question">أنا عالق في مستوى. كيف يمكنني الحصول على مساعدة؟</p>
-            <p class="faq-answer">يقدم مسار الطاقة  نظام تلميحات لمساعدتك في المستويات الصعبة. يمكنك استخدام رصيد التلميحات للكشف عن الحل خطوة بخطوة. يمكن شراؤه داخل التطبيق. إذا كنت لا تزال عالقاً، لا تتردد في التواصل معنا!</p>
+            <p class="faq-question">Come posso ripristinare i miei progressi di gioco?</p>
+            <p class="faq-answer">Puoi ripristinare i tuoi progressi di gioco dal menu Impostazioni all'interno dell'app. Tocca "Ripristina progressi" e conferma la tua scelta. Tieni presente che questa azione non puo essere annullata e ripristinera tutti i livelli completati, le stelle e le statistiche.</p>
         </div>
 
         <div class="faq-item">
-            <p class="faq-question">كيف أغير لغة التطبيق؟</p>
-            <p class="faq-answer">يتبع مسار الطاقة  إعداد لغة جهازك. لتغيير اللغة، انتقل إلى إعدادات جهازك > عام > اللغة والمنطقة واختر لغتك المفضلة. يدعم التطبيق ٤٥ لغة.</p>
+            <p class="faq-question">Sono bloccato su un livello. Come posso ottenere aiuto?</p>
+            <p class="faq-answer">Sentiero dell'Energia offre un sistema di suggerimenti per aiutarti a superare i livelli difficili. Puoi utilizzare i crediti suggerimento per rivelare la soluzione passo dopo passo. I crediti suggerimento possono essere acquistati all'interno dell'app. Se sei ancora bloccato, non esitare a contattarci!</p>
         </div>
 
         <div class="faq-item">
-            <p class="faq-question">كيف أبلغ عن خطأ أو أقترح ميزة؟</p>
-            <p class="faq-answer">نحب سماع آراء لاعبينا! يرجى مراسلتنا على <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> مع تفاصيل أي أخطاء تواجهها أو ميزات تود رؤيتها. قم بتضمين طراز جهازك وإصدار iOS إذا كنت تبلغ عن خطأ.</p>
+            <p class="faq-question">Come posso cambiare la lingua dell'app?</p>
+            <p class="faq-answer">Sentiero dell'Energia segue le impostazioni linguistiche del tuo dispositivo. Per cambiare la lingua, vai su Impostazioni > Generali > Lingua e regione del tuo dispositivo e seleziona la lingua che preferisci. L'app supporta 45 lingue.</p>
         </div>
 
-        <h2>موارد إضافية</h2>
+        <div class="faq-item">
+            <p class="faq-question">Come posso segnalare un bug o suggerire una funzionalita?</p>
+            <p class="faq-answer">Ci piace ricevere feedback dai nostri giocatori! Inviaci un'e-mail all'indirizzo <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> con i dettagli sui bug riscontrati o sulle funzionalita che vorresti vedere implementate. Se segnali un bug, includi il modello del tuo dispositivo e la versione di iOS.</p>
+        </div>
+
+        <h2>Risorse aggiuntive</h2>
         <ul>
-            <li><a href="privacy-policy-ar.html">سياسة الخصوصية</a></li>
+            <li><a href="privacy-policy-it.html">Informativa sulla privacy</a></li>
         </ul>
 
-        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">شكراً للعب مسار الطاقة !</p>
+        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">Grazie per aver giocato a Sentiero dell'Energia!</p>
     </div>
 </body>
 </html>

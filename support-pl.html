@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مسار الطاقة  - الدعم</title>
+    <title>Energy Path - Pomoc techniczna Ścieżka Energii</title>
     <style>
         :root {
             --bg-color: #f5f5f7;
@@ -16,7 +16,7 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-color);
-            line-height: 1.8;
+            line-height: 1.6;
             padding: 20px;
         }
         .container {
@@ -30,15 +30,14 @@
         h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
         h3 { color: var(--text-color); margin: 20px 0 10px; font-size: 1.1em; }
         p, li { margin-bottom: 12px; }
-        ul { padding-right: 25px; padding-left: 0; }
+        ul { padding-left: 25px; }
         a { color: var(--accent-color); }
         .highlight {
             background: rgba(59, 130, 246, 0.1);
             padding: 15px;
             border-radius: 8px;
             margin: 20px 0;
-            border-right: 3px solid var(--accent-color);
-            border-left: none;
+            border-left: 3px solid var(--accent-color);
         }
         .contact-box {
             background: rgba(59, 130, 246, 0.05);
@@ -53,7 +52,7 @@
             color: var(--accent-color);
         }
         .lang-switcher {
-            text-align: left;
+            text-align: right;
             margin-bottom: 20px;
         }
         .lang-switcher select {
@@ -82,7 +81,8 @@
         <div class="lang-switcher">
             <select onchange="window.location.href=this.value">
                 <option value="support.html">English</option>
-                <option value="support-ar.html" selected>العربية</option>
+                <option value="support-ar.html">العربية</option>
+                <option value="support-ms.html">Bahasa Melayu</option>
                 <option value="support-bg.html">Български</option>
                 <option value="support-bn.html">বাংলা</option>
                 <option value="support-bs.html">Bosanski</option>
@@ -93,6 +93,7 @@
                 <option value="support-el.html">Ελληνικά</option>
                 <option value="support-es.html">Español</option>
                 <option value="support-et.html">Eesti</option>
+                <option value="support-fa.html">فارسی</option>
                 <option value="support-fi.html">Suomi</option>
                 <option value="support-fr.html">Français</option>
                 <option value="support-hi.html">हिन्दी</option>
@@ -106,10 +107,9 @@
                 <option value="support-ka.html">ქართული</option>
                 <option value="support-lv.html">Latviešu</option>
                 <option value="support-lt.html">Lietuvių</option>
-                <option value="support-nl.html">Nederlands</option>
-                <option value="support-fa.html">فارسی</option>
                 <option value="support-nb.html">Norsk</option>
-                <option value="support-pl.html">Polski</option>
+                <option value="support-nl.html">Nederlands</option>
+                <option value="support-pl.html" selected>Polski</option>
                 <option value="support-pt-BR.html">Português (Brasil)</option>
                 <option value="support-pt.html">Português</option>
                 <option value="support-ro.html">Română</option>
@@ -128,58 +128,58 @@
             </select>
         </div>
 
-        <h1>دعم مسار الطاقة </h1>
-        <p>نحن هنا لمساعدتك على الاستمتاع بـ مسار الطاقة !</p>
+        <h1>Pomoc techniczna Ścieżka Energii</h1>
+        <p>Jesteśmy tutaj, aby pomóc Ci cieszyć się Ścieżka Energii!</p>
 
         <div class="highlight">
-            <strong>تحتاج مساعدة؟</strong> تحقق من الأسئلة الشائعة أدناه أو تواصل معنا مباشرة.
+            <strong>Potrzebujesz pomocy?</strong> Zapoznaj się z poniższymi często zadawanymi pytaniami lub skontaktuj się z nami bezpośrednio.
         </div>
 
-        <h2>معلومات الاتصال</h2>
+        <h2>Dane kontaktowe</h2>
         <div class="contact-box">
-            <p><strong>البريد الإلكتروني:</strong> <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
-            <p><strong>العنوان:</strong> 254 Rue Vendôme, 69003 Lyon, France</p>
-            <p><strong>الهاتف:</strong> +٣٣ ٦ ٩٨ ٤٩ ٤٩ ٢٨ </p>
+            <p><strong>E-mail:</strong> <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+            <p><strong>Adres:</strong> 254 Rue Vendôme, 69003 Lyon, France</p>
+            <p><strong>Telefon:</strong> +33 6 98 49 49 28</p>
         </div>
 
-        <h2>الأسئلة الشائعة</h2>
+        <h2>Często zadawane pytania</h2>
 
         <div class="faq-item">
-            <p class="faq-question">كيف أستعيد مشترياتي؟</p>
-            <p class="faq-answer">لاستعادة مشترياتك السابقة، انتقل إلى قائمة الإعدادات في التطبيق واضغط على "استعادة المشتريات". سيؤدي ذلك إلى استعادة أي فتح للفصول أو مشتريات أخرى غير قابلة للاستهلاك مرتبطة بحساب Apple ID الخاص بك. لاحظ أن المشتريات القابلة للاستهلاك (مثل رصيد التلميحات) لا يمكن استعادتها.</p>
-        </div>
-
-        <div class="faq-item">
-            <p class="faq-question">كيف أزامن تقدمي عبر الأجهزة؟</p>
-            <p class="faq-answer">يقوم مسار الطاقة  تلقائياً بمزامنة تقدمك عبر جميع أجهزة Apple الخاصة بك باستخدام iCloud. تأكد من تسجيل الدخول إلى نفس حساب iCloud على جميع الأجهزة ومن تمكين iCloud لـ مسار الطاقة  في إعدادات جهازك > [اسمك] > iCloud.</p>
+            <p class="faq-question">Jak przywrócić moje zakupy?</p>
+            <p class="faq-answer">Aby przywrócić poprzednie zakupy, przejdź do menu Ustawienia w aplikacji i wybierz opcję „Przywróć zakupy". Spowoduje to przywrócenie wszystkich odblokowanych rozdziałów i innych zakupów niebędących produktami jednorazowego użytku powiązanych z Twoim identyfikatorem Apple ID. Pamiętaj, że zakupy produktów jednorazowego użytku (takich jak kredyty podpowiedzi) nie mogą zostać przywrócone.</p>
         </div>
 
         <div class="faq-item">
-            <p class="faq-question">كيف أعيد تعيين تقدمي في اللعبة؟</p>
-            <p class="faq-answer">يمكنك إعادة تعيين تقدمك في اللعبة من قائمة الإعدادات داخل التطبيق. اضغط على "إعادة تعيين التقدم" وأكد اختيارك. يرجى ملاحظة أن هذا الإجراء لا يمكن التراجع عنه وسيعيد تعيين جميع إكمالات المستويات والنجوم والإحصائيات.</p>
+            <p class="faq-question">Jak zsynchronizować postępy między urządzeniami?</p>
+            <p class="faq-answer">Ścieżka Energii automatycznie synchronizuje postępy na wszystkich urządzeniach Apple za pomocą usługi iCloud. Upewnij się, że jesteś zalogowany na tym samym koncie iCloud na wszystkich urządzeniach i że usługa iCloud jest włączona dla Ścieżka Energii w ustawieniach urządzenia > [Twoje imię] > iCloud.</p>
         </div>
 
         <div class="faq-item">
-            <p class="faq-question">أنا عالق في مستوى. كيف يمكنني الحصول على مساعدة؟</p>
-            <p class="faq-answer">يقدم مسار الطاقة  نظام تلميحات لمساعدتك في المستويات الصعبة. يمكنك استخدام رصيد التلميحات للكشف عن الحل خطوة بخطوة. يمكن شراؤه داخل التطبيق. إذا كنت لا تزال عالقاً، لا تتردد في التواصل معنا!</p>
+            <p class="faq-question">Jak zresetować postępy w grze?</p>
+            <p class="faq-answer">Postępy w grze można zresetować w menu Ustawienia w aplikacji. Naciśnij „Resetuj postępy" i potwierdź swój wybór. Pamiętaj, że tej czynności nie można cofnąć i spowoduje ona zresetowanie wszystkich ukończonych poziomów, gwiazdek i statystyk.</p>
         </div>
 
         <div class="faq-item">
-            <p class="faq-question">كيف أغير لغة التطبيق؟</p>
-            <p class="faq-answer">يتبع مسار الطاقة  إعداد لغة جهازك. لتغيير اللغة، انتقل إلى إعدادات جهازك > عام > اللغة والمنطقة واختر لغتك المفضلة. يدعم التطبيق ٤٥ لغة.</p>
+            <p class="faq-question">Utknąłem na jednym poziomie. Jak mogę uzyskać pomoc?</p>
+            <p class="faq-answer">Ścieżka Energii oferuje system podpowiedzi, który pomaga przejść trudne poziomy. Możesz wykorzystać kredyty podpowiedzi, aby krok po kroku odkrywać rozwiązanie. Kredyty podpowiedzi można kupić w aplikacji. Jeśli nadal utknąłeś, skontaktuj się z nami!</p>
         </div>
 
         <div class="faq-item">
-            <p class="faq-question">كيف أبلغ عن خطأ أو أقترح ميزة؟</p>
-            <p class="faq-answer">نحب سماع آراء لاعبينا! يرجى مراسلتنا على <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> مع تفاصيل أي أخطاء تواجهها أو ميزات تود رؤيتها. قم بتضمين طراز جهازك وإصدار iOS إذا كنت تبلغ عن خطأ.</p>
+            <p class="faq-question">Jak zmienić język aplikacji?</p>
+            <p class="faq-answer">Ścieżka Energii dostosowuje się do ustawień językowych urządzenia. Aby zmienić język, przejdź do ustawień urządzenia > Ogólne > Język i region i wybierz preferowany język. Aplikacja obsługuje 45 języków.</p>
         </div>
 
-        <h2>موارد إضافية</h2>
+        <div class="faq-item">
+            <p class="faq-question">Jak zgłosić błąd lub zaproponować funkcję?</p>
+            <p class="faq-answer">Bardzo chętnie poznajemy opinie naszych graczy! Wyślij nam e-mail na adres <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> z opisem napotkanych błędów lub funkcji, które chciałbyś zobaczyć w aplikacji. Jeśli zgłaszasz błąd, podaj model urządzenia i wersję systemu iOS.</p>
+        </div>
+
+        <h2>Dodatkowe zasoby</h2>
         <ul>
-            <li><a href="privacy-policy-ar.html">سياسة الخصوصية</a></li>
+            <li><a href="privacy-policy-pl.html">Polityka prywatności</a></li>
         </ul>
 
-        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">شكراً للعب مسار الطاقة !</p>
+        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">Dziękujemy za grę w Ścieżka Energii!</p>
     </div>
 </body>
 </html>

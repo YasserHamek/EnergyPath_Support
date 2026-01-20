@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مسار الطاقة  - الدعم</title>
+    <title>Energy Path - 에너지 패스 지원</title>
     <style>
         :root {
             --bg-color: #f5f5f7;
@@ -16,7 +16,7 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-color);
-            line-height: 1.8;
+            line-height: 1.6;
             padding: 20px;
         }
         .container {
@@ -30,15 +30,14 @@
         h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
         h3 { color: var(--text-color); margin: 20px 0 10px; font-size: 1.1em; }
         p, li { margin-bottom: 12px; }
-        ul { padding-right: 25px; padding-left: 0; }
+        ul { padding-left: 25px; }
         a { color: var(--accent-color); }
         .highlight {
             background: rgba(59, 130, 246, 0.1);
             padding: 15px;
             border-radius: 8px;
             margin: 20px 0;
-            border-right: 3px solid var(--accent-color);
-            border-left: none;
+            border-left: 3px solid var(--accent-color);
         }
         .contact-box {
             background: rgba(59, 130, 246, 0.05);
@@ -53,7 +52,7 @@
             color: var(--accent-color);
         }
         .lang-switcher {
-            text-align: left;
+            text-align: right;
             margin-bottom: 20px;
         }
         .lang-switcher select {
@@ -82,7 +81,8 @@
         <div class="lang-switcher">
             <select onchange="window.location.href=this.value">
                 <option value="support.html">English</option>
-                <option value="support-ar.html" selected>العربية</option>
+                <option value="support-ar.html">العربية</option>
+                <option value="support-ms.html">Bahasa Melayu</option>
                 <option value="support-bg.html">Български</option>
                 <option value="support-bn.html">বাংলা</option>
                 <option value="support-bs.html">Bosanski</option>
@@ -101,9 +101,9 @@
                 <option value="support-id.html">Bahasa Indonesia</option>
                 <option value="support-it.html">Italiano</option>
                 <option value="support-ja.html">日本語</option>
-                <option value="support-kk.html">Қазақша</option>
-                <option value="support-ko.html">한국어</option>
                 <option value="support-ka.html">ქართული</option>
+                <option value="support-kk.html">Қазақша</option>
+                <option value="support-ko.html" selected>한국어</option>
                 <option value="support-lv.html">Latviešu</option>
                 <option value="support-lt.html">Lietuvių</option>
                 <option value="support-nl.html">Nederlands</option>
@@ -128,58 +128,58 @@
             </select>
         </div>
 
-        <h1>دعم مسار الطاقة </h1>
-        <p>نحن هنا لمساعدتك على الاستمتاع بـ مسار الطاقة !</p>
+        <h1>에너지 패스 지원</h1>
+        <p>에너지 패스를 즐기실 수 있도록 도와드리겠습니다!</p>
 
         <div class="highlight">
-            <strong>تحتاج مساعدة؟</strong> تحقق من الأسئلة الشائعة أدناه أو تواصل معنا مباشرة.
+            <strong>도움이 필요하십니까?</strong> 아래의 자주 묻는 질문을 확인하거나 직접 문의해 주세요.
         </div>
 
-        <h2>معلومات الاتصال</h2>
+        <h2>연락처 정보</h2>
         <div class="contact-box">
-            <p><strong>البريد الإلكتروني:</strong> <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
-            <p><strong>العنوان:</strong> 254 Rue Vendôme, 69003 Lyon, France</p>
-            <p><strong>الهاتف:</strong> +٣٣ ٦ ٩٨ ٤٩ ٤٩ ٢٨ </p>
+            <p><strong>이메일:</strong> <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+            <p><strong>주소:</strong> 254 Rue Vendôme, 69003 Lyon, France</p>
+            <p><strong>전화:</strong> +33 6 98 49 49 28</p>
         </div>
 
-        <h2>الأسئلة الشائعة</h2>
+        <h2>자주 묻는 질문</h2>
 
         <div class="faq-item">
-            <p class="faq-question">كيف أستعيد مشترياتي؟</p>
-            <p class="faq-answer">لاستعادة مشترياتك السابقة، انتقل إلى قائمة الإعدادات في التطبيق واضغط على "استعادة المشتريات". سيؤدي ذلك إلى استعادة أي فتح للفصول أو مشتريات أخرى غير قابلة للاستهلاك مرتبطة بحساب Apple ID الخاص بك. لاحظ أن المشتريات القابلة للاستهلاك (مثل رصيد التلميحات) لا يمكن استعادتها.</p>
-        </div>
-
-        <div class="faq-item">
-            <p class="faq-question">كيف أزامن تقدمي عبر الأجهزة؟</p>
-            <p class="faq-answer">يقوم مسار الطاقة  تلقائياً بمزامنة تقدمك عبر جميع أجهزة Apple الخاصة بك باستخدام iCloud. تأكد من تسجيل الدخول إلى نفس حساب iCloud على جميع الأجهزة ومن تمكين iCloud لـ مسار الطاقة  في إعدادات جهازك > [اسمك] > iCloud.</p>
+            <p class="faq-question">구매를 어떻게 복원하나요?</p>
+            <p class="faq-answer">이전 구매를 복원하려면 앱의 설정 메뉴로 이동하여 "구매 복원"을 탭하세요. 이는 Apple ID에 연결된 모든 챕터 잠금 해제 또는 기타 비소비성 구매를 복원합니다. 소비성 구매(힌트 크레딧 등)는 복원할 수 없습니다.</p>
         </div>
 
         <div class="faq-item">
-            <p class="faq-question">كيف أعيد تعيين تقدمي في اللعبة؟</p>
-            <p class="faq-answer">يمكنك إعادة تعيين تقدمك في اللعبة من قائمة الإعدادات داخل التطبيق. اضغط على "إعادة تعيين التقدم" وأكد اختيارك. يرجى ملاحظة أن هذا الإجراء لا يمكن التراجع عنه وسيعيد تعيين جميع إكمالات المستويات والنجوم والإحصائيات.</p>
+            <p class="faq-question">여러 기기에서 진행 상황을 어떻게 동기화하나요?</p>
+            <p class="faq-answer">에너지 패스는 iCloud를 사용하여 모든 Apple 기기에서 진행 상황을 자동으로 동기화합니다. 모든 기기에서 동일한 iCloud 계정에 로그인되어 있고, 기기 설정 > [이름] > iCloud에서 에너지 패스에 대한 iCloud가 활성화되어 있는지 확인하세요.</p>
         </div>
 
         <div class="faq-item">
-            <p class="faq-question">أنا عالق في مستوى. كيف يمكنني الحصول على مساعدة؟</p>
-            <p class="faq-answer">يقدم مسار الطاقة  نظام تلميحات لمساعدتك في المستويات الصعبة. يمكنك استخدام رصيد التلميحات للكشف عن الحل خطوة بخطوة. يمكن شراؤه داخل التطبيق. إذا كنت لا تزال عالقاً، لا تتردد في التواصل معنا!</p>
+            <p class="faq-question">게임 진행 상황을 어떻게 재설정하나요?</p>
+            <p class="faq-answer">앱 내 설정 메뉴에서 게임 진행 상황을 재설정할 수 있습니다. "진행 상황 재설정"을 탭하고 선택을 확인하세요. 이 작업은 취소할 수 없으며 모든 레벨 완료, 별 및 통계가 재설정됩니다.</p>
         </div>
 
         <div class="faq-item">
-            <p class="faq-question">كيف أغير لغة التطبيق؟</p>
-            <p class="faq-answer">يتبع مسار الطاقة  إعداد لغة جهازك. لتغيير اللغة، انتقل إلى إعدادات جهازك > عام > اللغة والمنطقة واختر لغتك المفضلة. يدعم التطبيق ٤٥ لغة.</p>
+            <p class="faq-question">레벨에서 막혔습니다. 어떻게 도움을 받을 수 있나요?</p>
+            <p class="faq-answer">에너지 패스는 어려운 레벨을 도와주는 힌트 시스템을 제공합니다. 단계별 솔루션을 보려면 힌트 크레딧을 사용할 수 있습니다. 힌트 크레딧은 앱 내에서 구매할 수 있습니다. 여전히 막혔다면 언제든지 연락해 주세요!</p>
         </div>
 
         <div class="faq-item">
-            <p class="faq-question">كيف أبلغ عن خطأ أو أقترح ميزة؟</p>
-            <p class="faq-answer">نحب سماع آراء لاعبينا! يرجى مراسلتنا على <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> مع تفاصيل أي أخطاء تواجهها أو ميزات تود رؤيتها. قم بتضمين طراز جهازك وإصدار iOS إذا كنت تبلغ عن خطأ.</p>
+            <p class="faq-question">앱 언어를 어떻게 변경하나요?</p>
+            <p class="faq-answer">에너지 패스는 장치의 언어 설정을 따릅니다. 언어를 변경하려면 장치의 설정 > 일반 > 언어 및 지역으로 이동하여 선호하는 언어를 선택하세요. 이 앱은 45개 언어를 지원합니다.</p>
         </div>
 
-        <h2>موارد إضافية</h2>
+        <div class="faq-item">
+            <p class="faq-question">버그를 보고하거나 기능을 제안하려면 어떻게 해야 하나요?</p>
+            <p class="faq-answer">플레이어의 의견을 듣는 것을 좋아합니다! 마주친 버그나 보고 싶은 기능에 대한 세부 정보와 함께 <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a>으로 이메일을 보내주세요. 버그를 보고하는 경우 장치 모델과 iOS 버전을 포함해 주세요.</p>
+        </div>
+
+        <h2>추가 리소스</h2>
         <ul>
-            <li><a href="privacy-policy-ar.html">سياسة الخصوصية</a></li>
+            <li><a href="privacy-policy-ko.html">개인정보 처리방침</a></li>
         </ul>
 
-        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">شكراً للعب مسار الطاقة !</p>
+        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">에너지 패스를 플레이해 주셔서 감사합니다!</p>
     </div>
 </body>
 </html>
