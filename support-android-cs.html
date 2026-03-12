@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energetická stezka - Podpora</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #3b82f6;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        h3 { color: var(--text-color); margin: 20px 0 10px; font-size: 1.1em; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(59, 130, 246, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid var(--accent-color);
+        }
+        .contact-box {
+            background: rgba(59, 130, 246, 0.05);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .contact-box p {
+            margin-bottom: 8px;
+        }
+        .contact-box strong {
+            color: var(--accent-color);
+        }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .faq-item {
+            margin-bottom: 25px;
+        }
+        .faq-question {
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 8px;
+        }
+        .faq-answer {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+                        <select onchange="window.location.href=this.value">
+                <option value="support-android.html">English</option>
+                <option value="support-android-ar.html">العربية</option>
+                <option value="support-android-ms.html">Bahasa Melayu</option>
+                <option value="support-android-bg.html">Български</option>
+                <option value="support-android-bn.html">বাংলা</option>
+                <option value="support-android-bs.html">Bosanski</option>
+                <option value="support-android-ca.html">Català</option>
+                <option value="support-android-cs.html" selected>Čeština</option>
+                <option value="support-android-da.html">Dansk</option>
+                <option value="support-android-de.html">Deutsch</option>
+                <option value="support-android-el.html">Ελληνικά</option>
+                <option value="support-android-es.html">Español</option>
+                <option value="support-android-et.html">Eesti</option>
+                <option value="support-android-fi.html">Suomi</option>
+                <option value="support-android-fr.html">Français</option>
+                <option value="support-android-hi.html">हिन्दी</option>
+                <option value="support-android-hr.html">Hrvatski</option>
+                <option value="support-android-hu.html">Magyar</option>
+                <option value="support-android-id.html">Bahasa Indonesia</option>
+                <option value="support-android-it.html">Italiano</option>
+                <option value="support-android-ja.html">日本語</option>
+                <option value="support-android-ka.html">ქართული</option>
+                <option value="support-android-kk.html">Қазақша</option>
+                <option value="support-android-ko.html">한국어</option>
+                <option value="support-android-lv.html">Latviešu</option>
+                <option value="support-android-lt.html">Lietuvių</option>
+                <option value="support-android-nl.html">Nederlands</option>
+                <option value="support-android-fa.html">فارسی</option>
+                <option value="support-android-nb.html">Norsk</option>
+                <option value="support-android-pl.html">Polski</option>
+                <option value="support-android-pt-BR.html">Português (Brasil)</option>
+                <option value="support-android-pt.html">Português</option>
+                <option value="support-android-ro.html">Română</option>
+                <option value="support-android-ru.html">Русский</option>
+                <option value="support-android-sk.html">Slovenčina</option>
+                <option value="support-android-sl.html">Slovenščina</option>
+                <option value="support-android-sv.html">Svenska</option>
+                <option value="support-android-ta.html">தமிழ்</option>
+                <option value="support-android-tr.html">Türkçe</option>
+                <option value="support-android-uk.html">Українська</option>
+                <option value="support-android-ur.html">اردو</option>
+                <option value="support-android-vi.html">Tiếng Việt</option>
+                <option value="support-android-th.html">ไทย</option>
+                <option value="support-android-zh-Hans.html">简体中文</option>
+                <option value="support-android-zh-Hant.html">繁體中文</option>
+            </select>
+        </div>
+
+        <h1>Podpora Energetická stezka</h1>
+        <p>Jsme tu, abychom vám pomohli užít si Energetická stezka!</p>
+
+        <div class="highlight">
+            <strong>Potřebujete pomoc?</strong> Podívejte se na často kladené otázky níže nebo nás kontaktujte přímo.
+        </div>
+
+        <h2>Často kladené otázky</h2>
+
+
+        <div class="faq-item">
+            <p class="faq-question">Otázka: Jak mohu obnovit své nákupy?</p>
+            <p class="faq-answer">Vaše nákupy se automaticky obnoví, když jste přihlášeni ke stejnému účtu Google, který byl použit k provedení původního nákupu. Pokud se vaše nákupy nezobrazují, ujistěte se, že jste na svém zařízení přihlášeni ke správnému účtu Google, a zkuste aplikaci restartovat. Upozorňujeme, že spotřební nákupy (například kredity na nápovědy) nelze obnovit.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Otázka: Jak mohu resetovat svůj herní postup?</p>
+            <p class="faq-answer">Odpověď: Svůj herní postup můžete resetovat v nabídce Nastavení v aplikaci. Klepněte na „Resetovat postup" a potvrďte svou volbu. Upozorňujeme, že tuto akci nelze vrátit zpět a resetují se všechny dokončené úrovně, hvězdy a statistiky.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Otázka: Zasekl jsem se na jedné úrovni. Jak mohu získat pomoc?</p>
+            <p class="faq-answer">Odpověď: Energetická stezka nabízí systém nápovědy, který vám pomůže projít obtížnými úrovněmi. Můžete použít kredity nápovědy, abyste odhalili řešení krok za krokem. Kredity nápovědy lze zakoupit v aplikaci. Pokud se stále zaseknete, neváhejte nás kontaktovat!</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Otázka: Jak mohu změnit jazyk aplikace?</p>
+            <p class="faq-answer">Odpověď: Energetická stezka se řídí nastavením jazyka vašeho zařízení. Chcete-li změnit jazyk, přejděte do Nastavení > Systém > Jazyky a zadávání a vyberte požadovaný jazyk. Aplikace podporuje 45 jazyků.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Otázka: Jak nahlásím chybu nebo navrhnu funkci?</p>
+            <p class="faq-answer">Odpověď: Rádi slyšíme názory našich hráčů! Pošlete nám e-mail na adresu <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> s podrobnostmi o chybách, na které jste narazili, nebo funkcích, které byste rádi viděli. Pokud hlásíte chybu, uveďte verzi Androidu a model svého zařízení.</p>
+        </div>
+        <h2>Další zdroje</h2>
+        <ul>
+            <li><a href="privacy-policy-android-cs.html">Zásady ochrany osobních údajů</a></li>
+        </ul>
+
+        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">Děkujeme, že hrajete Energetická stezka!</p>
+    </div>
+</body>
+</html>

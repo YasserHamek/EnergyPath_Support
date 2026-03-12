@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Path - 에너지 패스 지원</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #3b82f6;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        h3 { color: var(--text-color); margin: 20px 0 10px; font-size: 1.1em; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(59, 130, 246, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid var(--accent-color);
+        }
+        .contact-box {
+            background: rgba(59, 130, 246, 0.05);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .contact-box p {
+            margin-bottom: 8px;
+        }
+        .contact-box strong {
+            color: var(--accent-color);
+        }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .faq-item {
+            margin-bottom: 25px;
+        }
+        .faq-question {
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 8px;
+        }
+        .faq-answer {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+                        <select onchange="window.location.href=this.value">
+                <option value="support-android.html">English</option>
+                <option value="support-android-ar.html">العربية</option>
+                <option value="support-android-ms.html">Bahasa Melayu</option>
+                <option value="support-android-bg.html">Български</option>
+                <option value="support-android-bn.html">বাংলা</option>
+                <option value="support-android-bs.html">Bosanski</option>
+                <option value="support-android-ca.html">Català</option>
+                <option value="support-android-cs.html">Čeština</option>
+                <option value="support-android-da.html">Dansk</option>
+                <option value="support-android-de.html">Deutsch</option>
+                <option value="support-android-el.html">Ελληνικά</option>
+                <option value="support-android-es.html">Español</option>
+                <option value="support-android-et.html">Eesti</option>
+                <option value="support-android-fi.html">Suomi</option>
+                <option value="support-android-fr.html">Français</option>
+                <option value="support-android-hi.html">हिन्दी</option>
+                <option value="support-android-hr.html">Hrvatski</option>
+                <option value="support-android-hu.html">Magyar</option>
+                <option value="support-android-id.html">Bahasa Indonesia</option>
+                <option value="support-android-it.html">Italiano</option>
+                <option value="support-android-ja.html">日本語</option>
+                <option value="support-android-ka.html">ქართული</option>
+                <option value="support-android-kk.html">Қазақша</option>
+                <option value="support-android-ko.html" selected>한국어</option>
+                <option value="support-android-lv.html">Latviešu</option>
+                <option value="support-android-lt.html">Lietuvių</option>
+                <option value="support-android-nl.html">Nederlands</option>
+                <option value="support-android-fa.html">فارسی</option>
+                <option value="support-android-nb.html">Norsk</option>
+                <option value="support-android-pl.html">Polski</option>
+                <option value="support-android-pt-BR.html">Português (Brasil)</option>
+                <option value="support-android-pt.html">Português</option>
+                <option value="support-android-ro.html">Română</option>
+                <option value="support-android-ru.html">Русский</option>
+                <option value="support-android-sk.html">Slovenčina</option>
+                <option value="support-android-sl.html">Slovenščina</option>
+                <option value="support-android-sv.html">Svenska</option>
+                <option value="support-android-ta.html">தமிழ்</option>
+                <option value="support-android-tr.html">Türkçe</option>
+                <option value="support-android-uk.html">Українська</option>
+                <option value="support-android-ur.html">اردو</option>
+                <option value="support-android-vi.html">Tiếng Việt</option>
+                <option value="support-android-th.html">ไทย</option>
+                <option value="support-android-zh-Hans.html">简体中文</option>
+                <option value="support-android-zh-Hant.html">繁體中文</option>
+            </select>
+        </div>
+
+        <h1>에너지 패스 지원</h1>
+        <p>에너지 패스를 즐기실 수 있도록 도와드리겠습니다!</p>
+
+        <div class="highlight">
+            <strong>도움이 필요하십니까?</strong> 아래의 자주 묻는 질문을 확인하거나 직접 문의해 주세요.
+        </div>
+
+        
+        <h2>자주 묻는 질문</h2>
+
+
+        <div class="faq-item">
+            <p class="faq-question">구매를 어떻게 복원하나요?</p>
+            <p class="faq-answer">원래 구매에 사용된 것과 동일한 Google 계정에 로그인하면 구매가 자동으로 복원됩니다. 구매가 나타나지 않으면 기기에서 올바른 Google 계정에 로그인되어 있는지 확인하고 앱을 다시 시작해 보세요. 소비성 구매(힌트 크레딧 등)는 복원할 수 없습니다.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">게임 진행 상황을 어떻게 재설정하나요?</p>
+            <p class="faq-answer">앱 내 설정 메뉴에서 게임 진행 상황을 재설정할 수 있습니다. "진행 상황 재설정"을 탭하고 선택을 확인하세요. 이 작업은 취소할 수 없으며 모든 레벨 완료, 별 및 통계가 재설정됩니다.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">레벨에서 막혔습니다. 어떻게 도움을 받을 수 있나요?</p>
+            <p class="faq-answer">에너지 패스는 어려운 레벨을 도와주는 힌트 시스템을 제공합니다. 단계별 솔루션을 보려면 힌트 크레딧을 사용할 수 있습니다. 힌트 크레딧은 앱 내에서 구매할 수 있습니다. 여전히 막혔다면 언제든지 연락해 주세요!</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">앱 언어를 어떻게 변경하나요?</p>
+            <p class="faq-answer">에너지 패스는 장치의 언어 설정을 따릅니다. 언어를 변경하려면 장치의 설정 > 시스템 > 언어 및 입력으로 이동하여 선호하는 언어를 선택하세요. 이 앱은 45개 언어를 지원합니다.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">버그를 보고하거나 기능을 제안하려면 어떻게 해야 하나요?</p>
+            <p class="faq-answer">플레이어의 의견을 듣는 것을 좋아합니다! 마주친 버그나 보고 싶은 기능에 대한 세부 정보와 함께 <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a>으로 이메일을 보내주세요. 버그를 보고하는 경우 Android 버전과 장치 모델을 포함해 주세요.</p>
+        </div>
+        <h2>추가 리소스</h2>
+        <ul>
+            <li><a href="privacy-policy-android-ko.html">개인정보 처리방침</a></li>
+        </ul>
+
+        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">에너지 패스를 플레이해 주셔서 감사합니다!</p>
+    </div>
+</body>
+</html>

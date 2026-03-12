@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Path - Energijos Tako palaikymas</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #3b82f6;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        h3 { color: var(--text-color); margin: 20px 0 10px; font-size: 1.1em; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(59, 130, 246, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid var(--accent-color);
+        }
+        .contact-box {
+            background: rgba(59, 130, 246, 0.05);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .contact-box p {
+            margin-bottom: 8px;
+        }
+        .contact-box strong {
+            color: var(--accent-color);
+        }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .faq-item {
+            margin-bottom: 25px;
+        }
+        .faq-question {
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 8px;
+        }
+        .faq-answer {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+                        <select onchange="window.location.href=this.value">
+                <option value="support-android.html">English</option>
+                <option value="support-android-ar.html">العربية</option>
+                <option value="support-android-ms.html">Bahasa Melayu</option>
+                <option value="support-android-bg.html">Български</option>
+                <option value="support-android-bn.html">বাংলা</option>
+                <option value="support-android-bs.html">Bosanski</option>
+                <option value="support-android-ca.html">Català</option>
+                <option value="support-android-cs.html">Čeština</option>
+                <option value="support-android-da.html">Dansk</option>
+                <option value="support-android-de.html">Deutsch</option>
+                <option value="support-android-el.html">Ελληνικά</option>
+                <option value="support-android-es.html">Español</option>
+                <option value="support-android-et.html">Eesti</option>
+                <option value="support-android-fi.html">Suomi</option>
+                <option value="support-android-fr.html">Français</option>
+                <option value="support-android-hi.html">हिन्दी</option>
+                <option value="support-android-hr.html">Hrvatski</option>
+                <option value="support-android-hu.html">Magyar</option>
+                <option value="support-android-id.html">Bahasa Indonesia</option>
+                <option value="support-android-it.html">Italiano</option>
+                <option value="support-android-ja.html">日本語</option>
+                <option value="support-android-ka.html">ქართული</option>
+                <option value="support-android-kk.html">Қазақша</option>
+                <option value="support-android-ko.html">한국어</option>
+                <option value="support-android-lv.html">Latviešu</option>
+                <option value="support-android-lt.html" selected>Lietuvių</option>
+                <option value="support-android-nl.html">Nederlands</option>
+                <option value="support-android-fa.html">فارسی</option>
+                <option value="support-android-nb.html">Norsk</option>
+                <option value="support-android-pl.html">Polski</option>
+                <option value="support-android-pt-BR.html">Português (Brasil)</option>
+                <option value="support-android-pt.html">Português</option>
+                <option value="support-android-ro.html">Română</option>
+                <option value="support-android-ru.html">Русский</option>
+                <option value="support-android-sk.html">Slovenčina</option>
+                <option value="support-android-sl.html">Slovenščina</option>
+                <option value="support-android-sv.html">Svenska</option>
+                <option value="support-android-ta.html">தமிழ்</option>
+                <option value="support-android-tr.html">Türkçe</option>
+                <option value="support-android-uk.html">Українська</option>
+                <option value="support-android-ur.html">اردو</option>
+                <option value="support-android-vi.html">Tiếng Việt</option>
+                <option value="support-android-th.html">ไทย</option>
+                <option value="support-android-zh-Hans.html">简体中文</option>
+                <option value="support-android-zh-Hant.html">繁體中文</option>
+            </select>
+        </div>
+
+        <h1>Energijos Tako palaikymas</h1>
+        <p>Mes čia, kad padėtume jums mėgautis Energijos Taku!</p>
+
+        <div class="highlight">
+            <strong>Reikia pagalbos?</strong> Žiūrėkite dažniausius klausimus žemiau arba tiesiogiai susisiekite su mumis.
+        </div>
+
+        
+        <h2>Dažnai užduodami klausimai</h2>
+
+
+        <div class="faq-item">
+            <p class="faq-question">Kaip atkurti savo pirkimus?</p>
+            <p class="faq-answer">Jūsų pirkiniai automatiškai atkuriami, kai esate prisijungę prie tos pačios Google paskyros, kuri buvo naudojama pradiniam pirkiniui atlikti. Jei jūsų pirkiniai nerodomi, įsitikinkite, kad savo įrenginyje esate prisijungę prie teisingos Google paskyros, ir pabandykite iš naujo paleisti programą. Atkreipkite dėmesį, kad suvartojami pirkiniai (pvz., užuominų kreditai) negali būti atkurti.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Kaip atstatyti savo žaidimo eigą?</p>
+            <p class="faq-answer">Galite atstatyti savo žaidimo eigą iš programos Nustatymų meniu. Bakstelėkite „Atstatyti eigą" ir patvirtinkite savo pasirinkimą. Atkreipkite dėmesį, kad šio veiksmo negalima anuliuoti ir jis atstatys visus lygių užbaigimus, žvaigždes ir statistiką.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Užstrigau lygyje. Kaip galiu gauti pagalbos?</p>
+            <p class="faq-answer">Energijos Takas siūlo patarimų sistemą, kad padėtų per sunkius lygius. Galite naudoti patarimų kreditus, kad atskleistumėte sprendimą žingsnis po žingsnio. Patarimų kreditus galima įsigyti programoje. Jei vis tiek užstrigote, nedvejodami susisiekite su mumis!</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Kaip pakeisti programos kalbą?</p>
+            <p class="faq-answer">Energijos Takas seka jūsų įrenginio kalbos nustatymą. Norėdami pakeisti kalbą, eikite į savo įrenginio Nustatymus > Sistema > Kalbos ir įvestis ir pasirinkite pageidaujamą kalbą. Programa palaiko 45 kalbas.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Kaip pranešti apie klaidą ar pasiūlyti funkciją?</p>
+            <p class="faq-answer">Mums patinka girdėti iš mūsų žaidėjų! Prašome rašyti mums el. paštu <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> su informacija apie klaidas, su kuriomis susidūrėte, ar funkcijas, kurias norėtumėte matyti. Pranešdami apie klaidą, nurodykite Android versiją ir įrenginio modelį.</p>
+        </div>
+        <h2>Papildomi ištekliai</h2>
+        <ul>
+            <li><a href="privacy-policy-android-lt.html">Privatumo politika</a></li>
+        </ul>
+
+        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">Dėkojame, kad žaidžiate Energijos Taką!</p>
+    </div>
+</body>
+</html>
